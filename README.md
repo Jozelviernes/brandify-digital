@@ -40,22 +40,23 @@ This project demonstrates a modern, responsive web design with:
 ## Project Structure
 
 project-root/
-├─ app/ # Laravel backend logic
-├─ public/
-│ └─ images/ # All images (hero, icons, logo)
-├─ resources/
-│ ├─ css/ # TailwindCSS files
-│ ├─ js/ # Optional JS files
-│ ├─ views/
-│ │ ├─ layouts/ # Main layouts (app.blade.php)
-│ │ ├─ components/ # Reusable components (navbar, footer)
-│ │ ├─ home.blade.php
-│ │ ├─ services.blade.php
-│ │ └─ contact.blade.php
-├─ routes/
-│ └─ web.php # Web routes
-├─ vite.config.js # Vite config for asset bundling
-└─ package.json # Node dependencies
+├─ app/                  # Laravel backend logic
+├─ public/               # Publicly accessible files
+│  └─ images/            # All images (hero, icons, logo)
+├─ resources/            # Frontend assets and views
+│  ├─ css/               # TailwindCSS files
+│  ├─ js/                # Optional JS files
+│  └─ views/             # Blade templates
+│     ├─ layouts/        # Main layouts (e.g., app.blade.php)
+│     ├─ components/     # Reusable components (navbar, footer)
+│     ├─ home.blade.php
+│     ├─ services.blade.php
+│     └─ contact.blade.php
+├─ routes/               
+│  └─ web.php            # Web routes
+├─ vite.config.js        # Vite configuration for asset bundling
+└─ package.json          # Node dependencies
+
 
 
 **Notes:**
@@ -77,23 +78,25 @@ project-root/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/brandify-digital.git
+git clone https://github.com/Jozelviernes/brandify-digital.git
 cd brandify-digital
 Install backend dependencies:
 
 composer install
 Install frontend dependencies:
-
 npm install
+
 Compile TailwindCSS using Vite:
-
 npm run dev
-Serve the Laravel app:
 
+Serve the Laravel app:
 php artisan serve
+
 Open your browser at:
 
 http://127.0.0.1:8000
+
+
 Deploying the Project
 Upload the Laravel project to a PHP-supported hosting environment.
 
