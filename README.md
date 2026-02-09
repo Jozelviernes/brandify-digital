@@ -83,9 +83,11 @@ project-root/
 ```bash
 git clone https://github.com/Jozelviernes/brandify-digital.git
 cd brandify-digital
-Install backend dependencies:
+Or download the ZIP from GitHub and extract it.
 
+Install backend dependencies:
 composer install
+
 Install frontend dependencies:
 npm install
 
