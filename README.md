@@ -49,13 +49,16 @@ project-root/
 │  └─ views/             # Blade templates
 │     ├─ layouts/        # Main layouts (e.g., app.blade.php)
 │     ├─ components/     # Reusable components (navbar, footer)
-│     ├─ home.blade.php
-│     ├─ services.blade.php
-│     └─ contact.blade.php
+│     └─ pages/          # All main pages
+│        ├─ home.blade.php
+│        ├─ services.blade.php
+│        ├─ contact.blade.php
+│        └─ about.blade.php
 ├─ routes/               
 │  └─ web.php            # Web routes
 ├─ vite.config.js        # Vite configuration for asset bundling
 └─ package.json          # Node dependencies
+
 
 
 
